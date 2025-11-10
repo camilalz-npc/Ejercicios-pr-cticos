@@ -1,0 +1,97 @@
+Ejercicio 1:
+Pide dos números al usuario y muestre en pantalla el resultado de multiplicarlos.
+
+#Pedimos al usuario un número con int()
+  num1 = int(input("Dame el primer número: "))
+
+#Pedimos al usuario otroo número y también con int()
+  num2 = int(input("Dame el segundo número"))
+
+#Multiplicamos los dos números 
+  resultado = num1 // num2
+
+#ahora sacamos el resultado
+  print("El resultado de multiplicarlos es", resultado)
+
+
+
+
+
+
+
+Ejercicio 2:
+Pida el nombre del usuario y su edad; luego muestre el mensaje: "Hola [Nombre] tienes [años] años!"
+
+#Pedimos al usuario que escriba su nombre y lo guardamos en la variable 'nombre'
+  nombre = input("dame tu nombre")
+
+#Pedimos al usuario su edad y la guardamos en la variable 'edad'
+  edad = input("dame tu edad")
+
+#Mostramos el nombre y la edad usando print()
+   print ("hola [nombre] tienes [edad] años!")
+
+
+
+
+
+
+
+Ejercicio 3:
+Pide al usuario su nombre y apellido, y muestra el nombre completo.
+
+#Pedimos al usuario su nombre usando input()
+  nombre = input("escribe tu nombre")
+
+#Pedimos al usuario su apellido usando input() y lo guardamos en la variable apellido.
+  apellido = input("escribe tu apellido")
+
+#ponemos el nombre completo usando ahora print().
+   print ("Tu nombre completo es", [nombre] [apellido])
+
+
+
+
+
+
+Ejercicio 4:
+Pide al usuario el precio de un producto y la cantidad que va a comprar, luego muestra el total a pagar.
+
+#le vamos a pedir al usuario el precio de un producto usando int()
+  precio = int(input("dame el precio de un producto"))
+    precio = 5
+
+#le pedimos al usuario la cantidad de productos que va a comprar usando int()
+  cantidad = int(input("dime la cantidad de lo que vas a comprar"))
+    cantidad = 1
+
+#sacamos el total de lo que se va a apgar
+  print ("El total a pagar es", total = precio + cantidad)
+
+
+ 
+
+
+
+Ejercicio 5:
+Pide al usuario una cantidad de minutos y muestra cuántos segundos equivalen.
+
+#le pedimos al usuario una cantidad de minutos usanso int()
+  minutos = int(input("Dame una cantidad de minutos"))
+
+#ahora vamos a convertimos los minutos a segundos
+  segundos = minutos // 60
+
+"ya solo nos queda sacar el resultado 
+  print("Equivalen a", minutos // 60)
+
+
+
+
+
+
+
+
+
+
+
